@@ -23,7 +23,7 @@ const Section = () => {
             <div><h1>Where You are flying?</h1></div>
             <div>
                 <form action="">
-                    <input type="text" placeholder=''/>
+                    
                 </form>
             </div>
         </div>
