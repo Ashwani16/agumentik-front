@@ -1,0 +1,142 @@
+.msca__maldeev{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    
+    width: 100%;
+    text-align:center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.msca__maldeev>div{
+    
+    border: 1px solid rgb(3, 3, 3);
+    padding: 10px;
+    text-align:center;
+    margin: auto;
+    width: 25%;
+  
+    
+}
+
+
+.iii__images{
+    
+    display: grid;
+    border: 0px solid red;
+    grid-template-columns: 24% 24% 24% 24%;
+    margin: auto;
+    text-align: center;
+    gap: 1%;
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+.iii__images1{
+   text-align: left;
+   padding: 10px;
+   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;}
+
+.iii__images1>img{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+    
+}
+.btn__iii{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    background-color: #32b2ad;
+    color: white;
+    border: 0px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+
+}
+
+
+.discover__more{
+    padding: 20px;
+    background-color: white;
+    color: #32b2ad;
+    border: 1px solid #32b2ad;
+    border-radius: 5px;
+    width: 15%;
+    size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.section__5__pTag{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.iii__images22{
+    
+    display: grid;
+    border: 0px solid red;
+    grid-template-columns: 27% 27% 27%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    gap: 1%;
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+.iii__images2{
+   text-align: center;
+   border-radius: 5px;
+   padding: 20px;
+   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
+}
+
+.iii__images2>h3,p{
+  text-align: left;
+ }
+
+.iii__images2>img{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+    
+}
+.btn__iii2{
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    width: 50%;
+    background-color: #32b2ad;
+    color: white;
+    border: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.h3clients{
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.h3clients>div>{
+    
+}
+.h3clientsimage{
+    border-radius: 500px;
+    width: 60%;
+}
+@media(max-width: 767px){
+    .iii__images22,.iii__images{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    }
